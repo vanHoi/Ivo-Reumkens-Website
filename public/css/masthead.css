@@ -1,0 +1,141 @@
+/*
+	Inspired by and Marta Veludo's Behance page (https://marta-demo.myportfolio.com/work)
+	Masthead
+*/
+.extra-background {
+  background: #fff;
+  width: 100%;
+  padding-top: 2%; }
+
+.masthead {
+  position: fixed;
+  background: #fff url(../images/masthead.jpg) no-repeat center center;
+  background-size: cover;
+  justify-content: center;
+  height: 80vh;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: -1; }
+
+.masthead:after {
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #ff9800;
+  display: block;
+  opacity: 0.7; }
+
+.masthead,
+.masthead-placeholder {
+  width: 100%; }
+
+.masthead-placeholder {
+  opacity: 0;
+  position: relative !important;
+  z-index: -1;
+  height: 80vh; }
+
+.masthead-contents,
+.masthead-text {
+  width: 100%; }
+
+.masthead-contents {
+  height: 100%;
+  top: 0;
+  z-index: 1;
+  max-width: 800px; }
+
+.masthead,
+.masthead-contents {
+  display: flex;
+  align-items: center; }
+
+.masthead-arrow-container {
+  cursor: pointer;
+  height: 40px;
+  width: 60px;
+  bottom: 45px;
+  position: absolute;
+  left: calc(50% - 30px); }
+
+.masthead-arrow {
+  transform: rotate(45deg) translateY(-15px) translateX(5px);
+  bottom: 5px;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff; }
+
+.masthead h1,
+.masthead p {
+  display: inline-block;
+  width: 100%;
+  word-wrap: break-word; }
+
+.masthead h1 {
+  color: #ffffff;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 70px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  text-align: center;
+  text-transform: none; }
+
+.masthead p {
+  color: #ffffff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  text-transform: none; }
+
+@media (max-width: 768px) {
+  .masthead {
+    margin-bottom: 0;
+    padding-left: 5%;
+    padding-right: 5%; }
+
+  .masthead h1 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 18px;
+    margin-top: 0; }
+
+  .masthead p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0; } }
+@media (min-width: 541px) and (max-width: 768px) and (min-height: 921.6px) {
+  .masthead, .masthead-placeholder {
+    height: 80vh; } }
+@media (max-width: 540px) and (min-height: 648px) {
+  .masthead, .masthead-placeholder {
+    height: 80vh; } }
+@media (max-width: 540px) {
+  .masthead {
+    margin-bottom: 0; }
+
+  .masthead h1 {
+    font-size: 26px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    margin-top: 0; }
+
+  .masthead p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 0; } }
+
+/*# sourceMappingURL=masthead.css.map */

@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+/*
+	Design by Ivo Reumkens
+	Version 1.1 - 25-03-18
+*/
+
+$orange-lighten-5: #fff3e0;
+$orange-lighten-4: #ffe0b2;
+$orange-lighten-3: #ffcc80;
+$orange-lighten-2: #ffb74d;
+$orange-lighten-1: #ffa726;
+$orange: #ff9800;
+$orange-darken-1: #fb8c00;
+$orange-darken-2: #f57c00;
+$orange-darken-3: #ef6c00;
+$orange-darken-4: #e65100;
+$orange-accent-1: #ffd180;
+$orange-accent-2: #ffab40;
+$orange-accent-3: #ff9100;
+$orange-accent-4: #ff6d00;
+$white-transparant: rgba(255, 255, 255, .9);
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Medium), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Bold), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.project_photo_box {
+  height: 190px;
+  position: relative;
+}
+
+.project_photo {
+  margin: 0;
+  max-height: 200px;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 10px;
+}
+
+.blur-image {
+  filter: blur(4px);
+}
+
+.language-icons-box {
+  position: absolute;
+  display: inline-block;
+  alignment: right;
+}
+
+.language-icons {
+  margin-top: 14px;
+}
+
+.site-content {
+  flex: 1;
+  margin-top: 56px;
+}
+
+.vertical-line {
+  border: #9e9e9e 1px solid;
+  width: 1px;
+  height: 44px;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 601px) {
+  .site-content {
+	margin-top: 64px;
+  }
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.text-border {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+footer.page-footer {
+  margin: 0;
+  
+}
+
+.footer-copyright {
+  p {
+    color: $orange-lighten-5;
+    line-height: 1;
+  }
+  a {
+    color: $orange-lighten-3;
+  }
+  .row {
+    margin-bottom: 0;
+  }
+}
+
+.fa-3x {
+  a {
+    color: $orange-lighten-5;
+    line-height: 1;
+  }
+  a:hover {
+    color: $orange-lighten-4;
+  }
+}
+
+/* Fix om een grijs menu op mobiel te voorkomen */
+
+.sidenav-overlay {
+  z-index: 1;
+}
+
+/*
+  Parallax
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: $orange-darken-3;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: $white-transparant;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+	position: absolute;
+	top: 40%;
+  }
+  #index-banner .section {
+	top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+	top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
