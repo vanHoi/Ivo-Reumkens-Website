@@ -3,6 +3,6 @@
 return [
 	
 	'contact' => 'Contact',
-	'contact_me' => 'Would you want to contact me? Please send an email to the address below:',
+	'contact_me' => 'Would you like to contact me? Please send an email to the address below:',
 
 ];

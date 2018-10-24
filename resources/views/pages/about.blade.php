@@ -8,7 +8,7 @@
 				<h1 class="header center text-border animated slideInDown">@lang('about.about')</h1>
 			</div>
 		</div>
-		<div class="parallax"><img src="{{url('/images/aboutme.jpg')}}" alt="Background Image"></div>
+		<div class="parallax"><img src="{{url('/images/aboutme_2018.jpg')}}" alt="Background Image"></div>
 	</div>
 	
 	<div class="container">
