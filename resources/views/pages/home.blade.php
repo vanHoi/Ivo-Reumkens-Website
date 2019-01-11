@@ -198,6 +198,54 @@
 						</a>
 					</div>
 				</div>
+				
+				
+				<div class="row">
+					<div class="col s12 m4">
+						<div class="icon-block">
+						</div>
+					</div>
+					
+					<div class="col s12 m4">
+						<div class="icon-block">
+							
+							<div class="center project_photo_box">
+								<a href="/work/wereldwijs">
+									<img src="/images/projects/wereldwijs_big.jpg" class="project_photo"/>
+								</a>
+							</div>
+							
+							<h5 class="center">@lang('projects.wereldwijs_title')</h5>
+							
+							<p class="light">
+								@lang('projects.wereldwijs_description_short')
+							</p>
+							<div class="center hide-on-med-and-up">
+								<a href="/work/wereldwijs" class="waves-effect waves-light btn orange">
+									@lang('work.more_information')
+								</a>
+								<br><br>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col s12 m4">
+						<div class="icon-block">
+						</div>
+					</div>
+				</div>
+				
+				<div class="row center hide-on-small-and-down">
+					<div class="col s12 m4">
+					</div>
+					<div class="col s12 m4">
+						<a href="/work/wereldwijs" class="waves-effect waves-light btn orange">
+							@lang('work.more_information')
+						</a>
+					</div>
+					<div class="col s12 m4">
+					</div>
+				</div>
 			
 			</div>
 		</div>

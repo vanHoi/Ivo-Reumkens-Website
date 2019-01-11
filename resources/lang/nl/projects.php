@@ -36,5 +36,10 @@ Deze versie van de website is gebouwd in PHP, met behulp van het Laravel framewo
 	'famouspeopleriddle_url' => 'http://members.home.nl/ivode2de/CKV/',
 	'famouspeopleriddle_description' => 'Op de middelbare school heb ik met een aantal medeleerlingen een soort interactieve puzzel gemaakt. Het is een quiz / zoek spel, met inclusief verhaal. De implementatie heb ik volledig gedaan. Mocht u de quiz willen uitvoeren, begin dan met het zoeken van de Stonehenge en klik erop.',
 	'famouspeopleriddle_description_short' => 'Op de middelbare school heb ik met een aantal medeleerlingen een soort interactieve puzzel gemaakt. Het is een quiz / zoek spel, met inclusief verhaal. De implementatie heb ik volledig gedaan.',
+	
+	'wereldwijs_title' => 'Kindcentrum Wereldwijs',
+	'wereldwijs_url' => 'https://wereldwijsdrunen.nl/',
+	'wereldwijs_description' => 'Een website voor een basisschool in Drunen. Deze website is gebouwd met behulp van WordPress. Hierdoor zijn pagina\'s makkelijk aan te passen door de school zelf.',
+	'wereldwijs_description_short' => 'Een website voor een basisschool in Drunen, gebouwd met behulp van WordPress',
 
 ];

@@ -36,5 +36,10 @@ return [
 	'famouspeopleriddle_url' => 'http://members.home.nl/ivode2de/CKV/',
 	'famouspeopleriddle_description' => 'In high school I\'ve made a kind of interactive puzzle with a number of fellow pupils. It is a quiz / search game, including a story. I have done the complete implementation.',
 	'famouspeopleriddle_description_short' => 'In high school I\'ve made a kind of interactive puzzle with a number of fellow pupils. It is a quiz / search game, including a story.',
+	
+	'wereldwijs_title' => 'Kindcentrum Wereldwijs',
+	'wereldwijs_url' => 'https://wereldwijsdrunen.nl/',
+	'wereldwijs_description' => 'A website for an elementary school in Drunen. This website has been built using WordPress, this makes pages easily adaptable by the staff of the school.',
+	'wereldwijs_description_short' => 'A website for an elementary school in Drunen, Netherlands.',
 
 ];
