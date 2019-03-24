@@ -203,6 +203,25 @@
 				<div class="row">
 					<div class="col s12 m4">
 						<div class="icon-block">
+
+							<div class="center project_photo_box">
+								<a href="/work/gweled">
+									<img src="/images/projects/gweled_big.jpg" class="project_photo"/>
+								</a>
+							</div>
+
+							<h5 class="center">@lang('projects.gweled_title')</h5>
+
+							<p class="light">
+								@lang('projects.gweled_description_short')
+							</p>
+							<div class="center hide-on-med-and-up">
+								<a href="/work/gweled" class="waves-effect waves-light btn orange">
+									@lang('work.more_information')
+								</a>
+								<br><br>
+							</div>
+
 						</div>
 					</div>
 					
@@ -226,17 +245,40 @@
 								</a>
 								<br><br>
 							</div>
+
 						</div>
 					</div>
 					
 					<div class="col s12 m4">
 						<div class="icon-block">
+
+							<div class="center project_photo_box">
+								<a href="/work/pilatesstudiocontrole">
+									<img src="/images/projects/pilatesstudiocontrole.jpg" class="project_photo"/>
+								</a>
+							</div>
+
+							<h5 class="center">@lang('projects.pilatesstudiocontrole_title')</h5>
+
+							<p class="light">
+								@lang('projects.pilatesstudiocontrole_description_short')
+							</p>
+							<div class="center hide-on-med-and-up">
+								<a href="/work/pilatesstudiocontrole" class="waves-effect waves-light btn orange">
+									@lang('work.more_information')
+								</a>
+								<br><br>
+							</div>
+
 						</div>
 					</div>
 				</div>
 				
 				<div class="row center hide-on-small-and-down">
 					<div class="col s12 m4">
+						<a href="/work/gweled" class="waves-effect waves-light btn orange">
+							@lang('work.more_information')
+						</a>
 					</div>
 					<div class="col s12 m4">
 						<a href="/work/wereldwijs" class="waves-effect waves-light btn orange">
@@ -244,6 +286,9 @@
 						</a>
 					</div>
 					<div class="col s12 m4">
+						<a href="/work/pilatesstudiocontrole" class="waves-effect waves-light btn orange">
+							@lang('work.more_information')
+						</a>
 					</div>
 				</div>
 			

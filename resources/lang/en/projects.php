@@ -36,10 +36,20 @@ return [
 	'famouspeopleriddle_url' => 'http://members.home.nl/ivode2de/CKV/',
 	'famouspeopleriddle_description' => 'In high school I\'ve made a kind of interactive puzzle with a number of fellow pupils. It is a quiz / search game, including a story. I have done the complete implementation.',
 	'famouspeopleriddle_description_short' => 'In high school I\'ve made a kind of interactive puzzle with a number of fellow pupils. It is a quiz / search game, including a story.',
-	
+
+    'gweled_title' => 'Gweled',
+    'gweled_url' => 'https://gweled.org/',
+    'gweled_description' => 'A website for the opensource project Gweled, a 3 in a row game written in C. This website was made in cooperation with \'dnax\' gebouwd, using only HTML, CSS & Javascript.',
+    'gweled_description_short' => 'A website for the opensource project Gweled. This website was made in cooperation with \'dnax\'',
+
 	'wereldwijs_title' => 'Kindcentrum Wereldwijs',
 	'wereldwijs_url' => 'https://wereldwijsdrunen.nl/',
 	'wereldwijs_description' => 'A website for an elementary school in Drunen. This website has been built using WordPress, this makes pages easily adaptable by the staff of the school.',
 	'wereldwijs_description_short' => 'A website for an elementary school in Drunen, Netherlands.',
+
+    'pilatesstudiocontrole_title' => 'Pilates Studio Controle',
+    'pilatesstudiocontrole_url' => 'https://pilatesstudiocontrole.nl/',
+    'pilatesstudiocontrole_description' => 'The website for Pilates Studio Controle located in Drunen. This site was build with WordPress, so pages are easily adaptable.',
+    'pilatesstudiocontrole_description_short' => 'The website for Pilates Studio Controle located in Drunen',
 
 ];

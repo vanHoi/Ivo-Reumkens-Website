@@ -8,7 +8,8 @@ class ProjectController extends BaseController
 {
 	public function serveProjectPage($projectName) {
 		
-		$projects = array("attent", "ubuntufan", "timeline", "dionscape", "sudoku", "famouspeopleriddle", "wereldwijs");
+		$projects = array("attent", "ubuntufan", "timeline", "dionscape", "sudoku", "famouspeopleriddle", "wereldwijs",
+            "gweled", "pilatesstudiocontrole");
 		if (!in_array($projectName, $projects)) {
 			abort(404);
 		}
