@@ -17,8 +17,8 @@ return [
 	'ubuntufan_description_short' => 'A website about the operating system Ubuntu, specially aimed at beginners. Since it\'s creation, over 10.000 people have visited the site.',
 	
 	'timeline_title' => 'Timeline Builder',
-	'timeline_url' => '',
-	'timeline_description' => 'This is a simple timeline generator. Enter a number of events and dates, and a timeline is created! This website is currently offline.',
+	'timeline_url' => 'https://www.maakjetijdlijn.nl/index_en.html',
+	'timeline_description' => 'This is a simple timeline generator. Enter a number of events and dates, and a timeline is created!',
 	'timeline_description_short' => 'This is a simple timeline generator. Enter a number of events and dates, and a timeline is created!',
 	
 	

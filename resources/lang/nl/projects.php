@@ -18,8 +18,8 @@ Deze versie van de website is gebouwd in PHP, met behulp van het Laravel framewo
 	'ubuntufan_description_short' => 'Een website over het besturingssysteem Ubuntu, speciaal gericht op beginners. Deze website beheer ik al sinds mijn vijftiende, en heeft inmiddels meer dan 10.000 bezoekers gehad.',
 	
 	'timeline_title' => 'Tijdlijn Generator',
-	'timeline_url' => '',
-	'timeline_description' => 'Dit is een simpele tijdlijn generator. Voer een aantal gebeurtenissen en jaartallen in, en er wordt een tijdlijn van gemaakt! Momenteel is de website offline, maar ik wil deze graag binnenkort terug online brengen',
+	'timeline_url' => 'https://www.maakjetijdlijn.nl/',
+	'timeline_description' => 'Dit is een simpele tijdlijn generator. Voer een aantal gebeurtenissen en jaartallen in, en er wordt een tijdlijn van gemaakt!',
 	'timeline_description_short' => 'Dit is een simpele tijdlijn generator. Voer een aantal gebeurtenissen en jaartallen in, en er wordt een tijdlijn van gemaakt!',
 	
 	'dionscape_title' => 'DionScape',
