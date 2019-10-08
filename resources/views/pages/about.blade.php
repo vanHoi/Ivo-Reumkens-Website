@@ -12,17 +12,17 @@
 			<img src="{{url('/images/aboutme_2018.jpg')}}" alt="Background Image">
 		</div>
 	</div>
-	
+
 	<div class="container">
 		<div class="section">
-			
+
 			<div class="row">
 				<div class="col s12">
 					<h1 class="center"><i class="fas fa-info-circle animated rotateIn"></i></h1>
 					@lang('about.about_me')
 				</div>
 			</div>
-		
+
 		</div>
 	</div>
 @stop

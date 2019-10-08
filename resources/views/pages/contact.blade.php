@@ -10,10 +10,10 @@
 		</div>
 		<div class="parallax"><img src="{{url('/images/contact.jpg')}}" alt="Background Image"></div>
 	</div>
-	
+
 	<div class="container">
 		<div class="section">
-			
+
 			<div class="row">
 				<div class="col s12 center">
 					<h1><i class="fas fa-envelope animated rotateIn"></i></h1>
@@ -24,7 +24,7 @@
 					</p>
 				</div>
 			</div>
-		
+
 		</div>
 	</div>
 @stop

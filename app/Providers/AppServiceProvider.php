@@ -3,21 +3,11 @@
 namespace App\Providers;
 
 use Illuminate\Support\Facades\App;
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
+use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-    /**
-     * Bootstrap any application services.
-     *
-     * @return void
-     */
-    public function boot()
-    {
-	    View::share('language', App::getLocale());
-    }
-
     /**
      * Register any application services.
      *
@@ -26,5 +16,15 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         //
+    }
+
+    /**
+     * Bootstrap any application services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        View::share('language', App::getLocale());
     }
 }
