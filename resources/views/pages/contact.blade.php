@@ -20,7 +20,7 @@
 					<p>
 						@lang('contact.contact_me')
 						<br>
-						<a href="mailto:ivo@ivoreumkens.nl">ivo@ivoreumkens.nl</a>
+						<a href="mailto:mail@ivoreumkens.nl">mail@ivoreumkens.nl</a>
 					</p>
 				</div>
 			</div>
