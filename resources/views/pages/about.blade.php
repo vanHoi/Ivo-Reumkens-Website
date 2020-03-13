@@ -19,7 +19,9 @@
 			<div class="row">
 				<div class="col s12">
 					<h1 class="center"><i class="fas fa-info-circle animated rotateIn"></i></h1>
-					@lang('about.about_me')
+                    <p>{{__('about.about_me_p_first', ['age' => $age])}}</p>
+                    <p>@lang('about.about_me_p_second')</p>
+                    <p>@lang('about.about_me_p_third')</p>
 				</div>
 			</div>
 
