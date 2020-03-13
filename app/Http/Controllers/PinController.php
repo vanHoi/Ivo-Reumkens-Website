@@ -7,9 +7,9 @@ use Illuminate\Routing\Controller as BaseController;
 class PinController extends BaseController
 {
     public function servePinPage() {
-        $hour = $this->getCurrentHour();
+        $hour = date("H");
         $code = $this->calculateCode();
-        return view('pin.pin')->with('hour', $hour)->with('code', $code);
+        return view('pin.pin')->with('code', $code);
     }
 
     private function calculateCode() {
@@ -22,9 +22,5 @@ class PinController extends BaseController
         $firstNumber = strval($reversedFirstInt - 1);
         $fourthNumber = strval($reversedSecondInt + 1);
         return "{$firstNumber}{$reversed}{$fourthNumber}";
-    }
-
-    private function getCurrentHour() {
-        return date("H");
     }
 }

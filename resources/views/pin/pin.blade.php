@@ -19,8 +19,8 @@
             <div class="row">
                 <div class="col s12">
                     <h1 class="center"><i class="fas fa-credit-card"></i></h1>
-                    <p>De code voor het uur {{$hour}} is {{$code}}.</p>
-                    <p>De tijdzone is {{date_default_timezone_get()}}.</p>
+                    <p>De code voor het uur {{date("H")}} is <b>{{$code}}</b>.</p>
+                    <p>De tijd op de server is {{date("H:i")}} en de tijdzone is {{date_default_timezone_get()}}.</p>
                 </div>
             </div>
 
