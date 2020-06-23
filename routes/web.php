@@ -40,4 +40,4 @@ Route::get('locale/{locale}', function ($locale) {
 
 /* Pin pagina */
 
-Route::get('/pin', 'PinController@servePinPage');
+# Route::get('/pin', 'PinController@servePinPage');
