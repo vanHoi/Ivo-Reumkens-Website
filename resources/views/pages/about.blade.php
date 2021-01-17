@@ -22,6 +22,7 @@
                     <p>{{__('about.about_me_p_first', ['age' => $age])}}</p>
                     <p>@lang('about.about_me_p_second')</p>
                     <p>@lang('about.about_me_p_third')</p>
+                    <p>@lang('about.about_me_p_fourth')</p>
 				</div>
 			</div>
 
