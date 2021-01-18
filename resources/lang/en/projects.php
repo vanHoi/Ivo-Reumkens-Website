@@ -33,8 +33,8 @@ return [
 	'sudoku_description_short' => 'In high school I wrote a Sudoku program in Visual Basic together with another student. The game features three different levels, achievements and music.',
 
 	'famouspeopleriddle_title' => 'Famous People Riddle',
-	'famouspeopleriddle_url' => 'http://members.home.nl/ivode2de/CKV/',
-	'famouspeopleriddle_description' => 'In high school I\'ve made a kind of interactive puzzle with a number of fellow pupils. It is a quiz / search game, including a story. I have done the complete implementation.',
+	'famouspeopleriddle_url' => '',
+	'famouspeopleriddle_description' => 'In high school I\'ve made a kind of interactive puzzle with a number of fellow pupils. It is a quiz / search game, including a story. I have done the complete implementation. Sadly, the quiz is no longer available to play.',
 	'famouspeopleriddle_description_short' => 'In high school I\'ve made a kind of interactive puzzle with a number of fellow pupils. It is a quiz / search game, including a story.',
 
     'gweled_title' => 'Gweled',

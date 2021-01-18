@@ -33,8 +33,8 @@ Deze versie van de website is gebouwd in PHP, met behulp van het Laravel framewo
 	'sudoku_description_short' => 'Op de middelbare school heb ik samen met een andere leerling een sudoku programma geschreven in Visual Basic. In dit spel zitten onder andere drie verschillende niveaus, achievements en muziek.',
 
 	'famouspeopleriddle_title' => 'Famous People Raadsel',
-	'famouspeopleriddle_url' => 'http://members.home.nl/ivode2de/CKV/',
-	'famouspeopleriddle_description' => 'Op de middelbare school heb ik met een aantal medeleerlingen een soort interactieve puzzel gemaakt. Het is een quiz / zoek spel, met inclusief verhaal. De implementatie heb ik volledig gedaan. Mocht u de quiz willen uitvoeren, begin dan met het zoeken van de Stonehenge en klik erop.',
+	'famouspeopleriddle_url' => '',
+	'famouspeopleriddle_description' => 'Op de middelbare school heb ik met een aantal medeleerlingen een soort interactieve puzzel gemaakt. Het is een quiz / zoek spel, met inclusief verhaal. De implementatie heb ik volledig gedaan. Helaas is de website niet langer beschikbaar.',
 	'famouspeopleriddle_description_short' => 'Op de middelbare school heb ik met een aantal medeleerlingen een soort interactieve puzzel gemaakt. Het is een quiz / zoek spel, met inclusief verhaal. De implementatie heb ik volledig gedaan.',
 
     'gweled_title' => 'Gweled',
